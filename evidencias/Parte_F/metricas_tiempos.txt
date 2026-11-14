@@ -1,0 +1,73 @@
+Mediciones de tiempo — Parte F
+================================
+
+Instrumentación:
+Se agregó std::chrono a una copia de 03_Stanford_Bunny_BPA_MULTISEMILLA_CENTRADO.cpp.
+Se midió el tiempo total de generarMallaBPA y, por separado, construirVecindad.
+El archivo original del paquete no se modificó.
+
+Radio usado: 0.007
+
+Puntos    Tiempo total CPU    Tiempo vecindad    Triángulos    Regiones    Puntos cubiertos
+2503              39 ms               8 ms           6564           1          2490 / 2503
+20000          10136 ms             371 ms          40801         189         19217 / 20000
+
+Prueba de estrés con 50 000 puntos
+-----------------------------------
+Radio 0.007:
+  - No completó en 15 min 37 s.
+  - Último registro: 3200 regiones.
+  - Se detuvo para no bloquear el resto de la práctica.
+
+Radio 0.010:
+  - No completó en 11 min 10 s.
+  - Último registro: 1900 regiones.
+  - Se detuvo.
+
+Benchmark aislado de construcción de vecindad con 50 000 puntos:
+  - Tiempo vecindad: 2449 ms.
+  - El resto del tiempo corresponde al crecimiento multi-semilla, la búsqueda de
+    candidatos y la verificación de esferas vacías.
+
+Escalamiento de la vecindad:
+  2503  -> 20000:  8 ms -> 371 ms   (factor 46.4 para 8 veces más puntos)
+  20000 -> 50000: 371 ms -> 2449 ms (factor 6.6 para 2.5 veces más puntos)
+
+Observación:
+La construcción de vecindad es O(n^2), pero en 20 000 puntos solo representa
+371 / 10136 = 3.7 % del tiempo total. El cuello de botella real está en el
+crecimiento de la malla y en la búsqueda multi-semilla.
+
+Versión OpenMP
+==============
+Archivo: 03_Stanford_Bunny_BPA_MULTISEMILLA_PARALELO.cpp
+Mediana de 3 ejecuciones por configuración.
+THREADS: 1, 2, 4, 6 (6 núcleos físicos).
+
+Puntos    Hilos    Tiempo mediana    Triángulos    Regiones    Speedup vs 1 hilo
+2503        1            56 ms           6564           1              1.000
+2503        2            56 ms           6564           1              1.000
+2503        4            56 ms           6564           1              1.000
+2503        6            57 ms           6564           1              0.982
+20000       1         13360 ms          40801         189              1.000
+20000       2         10818 ms          40801         189              1.235
+20000       4         11065 ms          40801         189              1.207
+20000       6         11119 ms          40801         189              1.202
+
+Comparación con la versión serial original:
+- 2503: 39 ms serial -> 56 ms OpenMP (más lenta).
+- 20000: 10136 ms serial -> 10818 ms OpenMP con 2 hilos (ligeramente más lenta).
+
+Motivo:
+- `buscarPuntoBPA` crea una región OpenMP por arista cuando la lista de
+  candidatos supera 256. En 20000 puntos hay 4191 listas >=256, con un
+  promedio de 238 vecinos y un máximo de 449.
+- El costo de crear y sincronizar hilos por cada arista compensa la ganancia.
+- `esferaVacia` tiene una ruta paralela para listas >=512, pero en 20000
+  puntos el máximo fue 449; por eso se mantuvo serial para evitar overhead.
+- La malla resultante es idéntica: 6564/40801 triángulos, 1/189 regiones
+  y 2490/19217 puntos cubiertos.
+
+50000 con OpenMP:
+- 6 hilos, timeout de 180 s: no completó; 550 regiones al detenerse.
+- No se reporta tiempo final ni speedup.

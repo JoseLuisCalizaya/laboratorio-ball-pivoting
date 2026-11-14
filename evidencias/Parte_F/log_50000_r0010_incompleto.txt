@@ -1,0 +1,77 @@
+Puntos cargados: 50000
+
+CONTROLES
+P = puntos
+W = malla alambrada
+F = malla solida
+1 = BPA radio 0.005
+2 = BPA radio 0.007
+3 = BPA radio 0.010
+B = regenerar
+C = borrar malla
+S = guardar Bunny_BPA_generado.obj
+Mouse/Flechas = rotar
++/- = zoom
+ESC = salir
+
+Generando malla BPA multi-semilla...
+Radio = 0.01
+Vecindad construida para radio 0.01
+Region 1: 41036 triangulos
+Region 2: 4 triangulos
+Region 3: 133 triangulos
+Region 4: 10 triangulos
+Region 5: 6 triangulos
+Region 6: 23 triangulos
+Region 7: 2 triangulos
+Region 8: 28 triangulos
+Region 9: 134 triangulos
+Region 10: 5 triangulos
+Region 11: 12 triangulos
+Region 12: 1 triangulos
+Region 13: 12 triangulos
+Region 14: 4 triangulos
+Region 15: 4 triangulos
+Region 16: 17 triangulos
+Region 17: 6 triangulos
+Region 18: 82 triangulos
+Region 19: 25 triangulos
+Region 20: 4 triangulos
+Region 50: 1 triangulos
+Region 100: 2 triangulos
+Region 150: 37 triangulos
+Region 200: 8 triangulos
+Region 250: 7 triangulos
+Region 300: 2 triangulos
+Region 350: 4 triangulos
+Region 400: 1 triangulos
+Region 450: 39 triangulos
+Region 500: 3 triangulos
+Region 550: 2 triangulos
+Region 600: 14 triangulos
+Region 650: 2 triangulos
+Region 700: 1 triangulos
+Region 750: 45 triangulos
+Region 800: 3 triangulos
+Region 850: 9 triangulos
+Region 900: 7 triangulos
+Region 950: 1 triangulos
+Region 1000: 3 triangulos
+Region 1050: 6 triangulos
+Region 1100: 4 triangulos
+Region 1150: 3 triangulos
+Region 1200: 5 triangulos
+Region 1250: 2 triangulos
+Region 1300: 1 triangulos
+Region 1350: 11 triangulos
+Region 1400: 15 triangulos
+Region 1450: 13 triangulos
+Region 1500: 1 triangulos
+Region 1550: 3 triangulos
+Region 1600: 1 triangulos
+Region 1650: 1 triangulos
+Region 1700: 1 triangulos
+Region 1750: 2 triangulos
+Region 1800: 1 triangulos
+Region 1850: 8 triangulos
+Region 1900: 1 triangulos

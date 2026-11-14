@@ -1,0 +1,24 @@
+
+Ejemplo 3D reiniciado.
+ESPACIO: agregar triangulo
+Mouse o flechas: rotar escena
+Triangulo T0 = (P0, P1, P2)
+Triangulo T1 = (P0, P2, P3)
+Triangulo T2 = (P0, P3, P4)
+Triangulo T3 = (P0, P4, P5)
+Triangulo T4 = (P0, P5, P6)
+Triangulo T5 = (P0, P6, P7)
+Triangulo T6 = (P0, P7, P8)
+Triangulo T7 = (P0, P8, P1)
+
+Ejemplo 3D reiniciado.
+ESPACIO: agregar triangulo
+Mouse o flechas: rotar escena
+Triangulo T0 = (P0, P1, P2)
+Triangulo T1 = (P0, P2, P3)
+Triangulo T2 = (P0, P3, P4)
+Triangulo T3 = (P0, P4, P5)
+Triangulo T4 = (P0, P5, P6)
+Triangulo T5 = (P0, P6, P7)
+Triangulo T6 = (P0, P7, P8)
+Triangulo T7 = (P0, P8, P1)

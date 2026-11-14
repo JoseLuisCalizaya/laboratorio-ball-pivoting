@@ -1,0 +1,10 @@
+Stanford Bunny cargado.
+Vertices: 2503
+Triangulos: 4968
+
+P = nube de puntos
+W = malla alambrada
+F = malla solida
+Mouse/Flechas = rotar
++/- = zoom
+R = reiniciar vista

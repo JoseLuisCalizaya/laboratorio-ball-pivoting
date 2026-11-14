@@ -1,0 +1,45 @@
+# Binarios compilados
+bpa3d
+nube20
+bunny
+bpa2503
+bpa_multi
+bpa_paralelo
+
+# Resultados generados
+resultados/
+Bunny_BPA_generado.obj
+evidencias/**/bpa_*.obj
+
+# Capturas individuales que ya estan resumidas en las comparaciones
+evidencias/Parte_E/parte_e_r*_*.png
+evidencias/Parte_F/parte_f_2503_*.png
+evidencias/Parte_F/parte_f_20000_*.png
+evidencias/Parte_F/paralelo/*hilos.txt
+
+# Informes y secciones LaTeX de las carpetas de evidencias
+evidencias/**/*.md
+evidencias/**/*.tex
+
+# Paquete comprimido redundante
+*.zip
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+
+# Perfilado
+gmon.out
+callgrind.out.*
+
+# Sistema y editores
+.DS_Store
+*.swp
+*~

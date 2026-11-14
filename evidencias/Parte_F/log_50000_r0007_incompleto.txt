@@ -1,0 +1,105 @@
+Puntos cargados: 50000
+
+CONTROLES
+P = puntos
+W = malla alambrada
+F = malla solida
+1 = BPA radio 0.005
+2 = BPA radio 0.007
+3 = BPA radio 0.010
+B = regenerar
+C = borrar malla
+S = guardar Bunny_BPA_generado.obj
+Mouse/Flechas = rotar
++/- = zoom
+ESC = salir
+
+Generando malla BPA multi-semilla...
+Radio = 0.007
+Vecindad construida para radio 0.007
+Region 1: 31929 triangulos
+Region 2: 269 triangulos
+Region 3: 4 triangulos
+Region 4: 28 triangulos
+Region 5: 27 triangulos
+Region 6: 20 triangulos
+Region 7: 17 triangulos
+Region 8: 42 triangulos
+Region 9: 292 triangulos
+Region 10: 25 triangulos
+Region 11: 125 triangulos
+Region 12: 364 triangulos
+Region 13: 1 triangulos
+Region 14: 3 triangulos
+Region 15: 73 triangulos
+Region 16: 992 triangulos
+Region 17: 3 triangulos
+Region 18: 52 triangulos
+Region 19: 8 triangulos
+Region 20: 6 triangulos
+Region 50: 10 triangulos
+Region 100: 1 triangulos
+Region 150: 52 triangulos
+Region 200: 2 triangulos
+Region 250: 5 triangulos
+Region 300: 4 triangulos
+Region 350: 91 triangulos
+Region 400: 7 triangulos
+Region 450: 8 triangulos
+Region 500: 1 triangulos
+Region 550: 1 triangulos
+Region 600: 21 triangulos
+Region 650: 3 triangulos
+Region 700: 3 triangulos
+Region 750: 4 triangulos
+Region 800: 5 triangulos
+Region 850: 1 triangulos
+Region 900: 7 triangulos
+Region 950: 1 triangulos
+Region 1000: 1 triangulos
+Region 1050: 4 triangulos
+Region 1100: 1 triangulos
+Region 1150: 8 triangulos
+Region 1200: 8 triangulos
+Region 1250: 15 triangulos
+Region 1300: 4 triangulos
+Region 1350: 12 triangulos
+Region 1400: 8 triangulos
+Region 1450: 1 triangulos
+Region 1500: 5 triangulos
+Region 1550: 2 triangulos
+Region 1600: 1 triangulos
+Region 1650: 1 triangulos
+Region 1700: 7 triangulos
+Region 1750: 5 triangulos
+Region 1800: 1 triangulos
+Region 1850: 5 triangulos
+Region 1900: 1 triangulos
+Region 1950: 8 triangulos
+Region 2000: 2 triangulos
+Region 2050: 5 triangulos
+Region 2100: 1 triangulos
+Region 2150: 1 triangulos
+Region 2200: 5 triangulos
+Region 2250: 9 triangulos
+Region 2300: 7 triangulos
+Region 2350: 1 triangulos
+Region 2400: 5 triangulos
+Region 2450: 5 triangulos
+Region 2500: 1 triangulos
+Region 2550: 1 triangulos
+Region 2600: 1 triangulos
+Region 2650: 4 triangulos
+Region 2700: 3 triangulos
+Region 2750: 1 triangulos
+Region 2800: 7 triangulos
+Region 2850: 2 triangulos
+Region 2900: 3 triangulos
+Region 2950: 3 triangulos
+Region 3000: 1 triangulos
+Region 3050: 1 triangulos
+Region 3100: 8 triangulos
+Region 3150: 3 triangulos
+Region 3200: 1 triangulos
+Region 3250: 1 triangulos
+Region 3300: 1 triangulos

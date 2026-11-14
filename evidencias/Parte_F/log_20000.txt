@@ -1,0 +1,49 @@
+Puntos cargados: 20000
+
+CONTROLES
+P = puntos
+W = malla alambrada
+F = malla solida
+1 = BPA radio 0.005
+2 = BPA radio 0.007
+3 = BPA radio 0.010
+B = regenerar
+C = borrar malla
+S = guardar Bunny_BPA_generado.obj
+Mouse/Flechas = rotar
++/- = zoom
+ESC = salir
+
+Generando malla BPA multi-semilla...
+Radio = 0.007
+Vecindad construida para radio 0.007
+Tiempo vecindad: 371 ms
+Region 1: 1 triangulos
+Region 2: 40366 triangulos
+Region 3: 4 triangulos
+Region 4: 2 triangulos
+Region 5: 7 triangulos
+Region 6: 1 triangulos
+Region 7: 1 triangulos
+Region 8: 3 triangulos
+Region 9: 4 triangulos
+Region 10: 7 triangulos
+Region 11: 3 triangulos
+Region 12: 2 triangulos
+Region 13: 1 triangulos
+Region 14: 1 triangulos
+Region 15: 4 triangulos
+Region 16: 2 triangulos
+Region 17: 1 triangulos
+Region 18: 6 triangulos
+Region 19: 1 triangulos
+Region 20: 5 triangulos
+Region 50: 1 triangulos
+Region 100: 1 triangulos
+Region 150: 2 triangulos
+
+Reconstruccion terminada.
+Regiones encontradas: 189
+Puntos cubiertos: 19217 / 20000
+Triangulos generados: 40801
+Tiempo: 10136 ms

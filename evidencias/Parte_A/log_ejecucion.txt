@@ -1,0 +1,12 @@
+
+Practica reiniciada.
+ESPACIO = agregar un triangulo
+Triangulo generado: (0, 1, 2)
+Triangulo generado: (0, 2, 3)
+Triangulo generado: (0, 3, 4)
+Triangulo generado: (0, 4, 5)
+Triangulo generado: (0, 5, 6)
+Triangulo generado: (0, 6, 7)
+Triangulo generado: (0, 7, 8)
+Triangulo generado: (0, 8, 1)
+Malla cerrada.

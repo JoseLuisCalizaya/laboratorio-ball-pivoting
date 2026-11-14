@@ -1,0 +1,20 @@
+Métricas de las mallas generadas
+================================
+
+Archivo                         Vértices   Caras   Aristas   Aristas de borde   Aristas no manifold   Componentes
+bpa_r005.obj                       2503    6271      8296               130                  2003             1
+bpa_r007.obj                       2503    6564      8619                27                  2043             1
+bpa_r010.obj                       2503    6476      8559                 5                  1807             1
+Stanford_Bunny_2503.obj            2503    4968      7473                42                     0             1
+
+Definiciones:
+- Arista de borde: arista usada por una sola cara. Indica una abertura o borde abierto.
+- Arista no manifold: arista compartida por más de dos caras.
+- Componentes: cantidad de regiones conexas de la malla.
+
+Observación:
+El radio 0.005 deja 130 aristas de borde, señal de más aberturas.
+El radio 0.007 reduce las aberturas a 27.
+El radio 0.010 reduce las aberturas a 5, pero conecta regiones con mayor agresividad.
+Las tres mallas presentan aristas no manifold, por lo que la implementación no garantiza
+una malla 2-variedad. La malla de referencia del OBJ sí es manifold.
